@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import gatoImage from "../assets/gato.webp";
-import foto from "../assets/WePM.jpeg";
+import fotoToghether from "../assets/WePM.jpeg";
 
 export default function ValentinePage() {
   const [yesPressed, setYesPressed] = useState(false);
@@ -112,7 +112,7 @@ export default function ValentinePage() {
           <div className="animate-fade-in flex flex-col items-center">
             <div className="relative mb-4">
               <img
-                src={foto}
+                src={fotoToghether}
                 alt="Flowers and hearts"
                 className="w-56 h-56 object-cover rounded-full shadow-2xl ring-4 ring-pink-300"
               />
